@@ -7,143 +7,141 @@
     <title>Clone | Youtube | Desafio DIO.me</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="container-left">
-                <div class="menu-hamburger">
-                     <img src="/assets/img/menu.svg" alt="Menu hamburger">  
-                </div>
-                <div class="logo-yt">
-                    <img src="/assets/img/youtube.svg" alt="Logo youtube">             
-                </div>
-            </div>
-            <div class="container-center">
-                <div class="search"></div>
-                <div class="icon-search">
-                    <img src="/assets/img/search.svg" alt="icone busca">                   
-                </div>   
-            </div>
-            <div class="container-right">
-                <div class="video">
-                    <img src="/assets/img/video.svg" alt="icone video">                  
-                </div>
-                <div class="bell">
-                    <img src="/assets/img/bell.svg" alt="icone notificções">                                      
-                </div>
-                <div class="avatar">
-                    <img src="/assets/img/avatar.svg" alt="Avatar usuário">
-                </div> 
+    <header class="container-menu">
+        <div id="left" class="item-menu">
+            <img src="/assets/img/menu.svg" alt="imagem menu" class="menu">
+            <img src="/assets/img/youtube.svg" alt="" class="logo-yt">
+        </div>
+        <div id="center" class="item-menu">
+            <div class="input"></div>
+            <div class="search">
+                <img src="/assets/img/search.svg" alt="imagem search">
             </div>
         </div>
+        <div id="rigth" class="item-menu">
+            <img src="/assets/img/video.svg" alt="imagem video" class="video">
+            <img src="/assets/img/bell.svg" alt="imagem notificações" class="bell">
+            <img src="/assets/img/avatar.svg" alt="imagem avatar" class="avatar">
+        </div>
     </header>
-        <main>
-            <div class="watch-video">
-                <div class="video-yt">
-                    <img src="/assets/img/img-video.svg" alt="Simulador de video">        
-                </div>
-                <div class="text">
-                    <p>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</p>
-                </div>
-                <div class="video-actions">
-                    <div class="avatar-info-chanel">
-                        <img src="/assets/img/Channel Avatar.svg" alt="logo avatar do canal">
-                        <div class="text-chanel">
-                            <h3>DIO</h3>
-                            <p>83,3 mil inscritos</p>
-                        </div>
-                    </div>                  
-                    <div class="subscribe-button">
-                        <img src="/assets/img/Subscribe Button.svg" alt="Botão de inscreva-se">
-                    </div>
-                    <div class="thumbs-up">
-                        <img src="/assets/img/thumbs-up.svg" alt="Curti">
-                        <p>2 mil</p>
-                    </div>
-                    <div class="thumbs-down">
-                        <img src="/assets/img/thumbs-down.svg" alt="Não curti">
-                        <p>Não gostei</p>
-                    </div>
-                    <div class="share">
-                        <img src="/assets/img/share-2.svg" alt="Compartilhar">
-                        <p>Compartilhar</p>
-                    </div>
-                    <div class="download">
-                        <img src="/assets/img/download.svg" alt="download">
-                        <p>Doownload</p>
-                    </div>
-                </div>    
-                <h3>28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</h3>
-                <p>
-                    Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. 
-                    Para isso, criaremos uma landing page com a temática da série Stranger Things, 
-                    a qual contará com a implementação de um theme switcher (light e dark) para 
-                    explorarmos os mistérios do mundo invertido.
-                </p>               
-            </div>    
-            <div class="videos">
-                <div class="video-01">
-                    <img src="/assets/img/video01.svg" alt="Video">
-                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>2,1 mil visualizações Transmitido há 2 dias</p>
-                </div>
-                <div class="video-02">
-                    <img src="/assets/img/video02.svg" alt="Video">
-                    <h3>Scrum Talks</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>1,6 mil visualizações
-                        Transmitido há 3 dias</p>
-                </div>
-                <div class="video-03">
-                    <img src="/assets/img/video03.svg" alt="Video">
-                    <h3>Machine Learning Avançado - Fast Track</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>1,7 mil visualizações
-                        Transmitido há 4 dias</p>
-                </div>
-                <div class="video-04">
-                    <img src="/assets/img/video04.svg" alt="Video">
-                    <h3>Global Skills #2 - Project Planning</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>971 visualizações
-                        Transmitido há 5 dias</p>
-                </div>
-                <div class="video-05">
-                    <img src="/assets/img/video05.svg" alt="Video">
-                    <h3>Como aprender a programar Python do ZERO</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>711 visualizações
-                        Transmitido há 6 dias</p>
-                </div>
-                <div class="video-06">
-                    <img src="/assets/img/video01.svg" alt="Video">
-                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>2,1 mil visualizações Transmitido há 2 dias</p>
-                </div>
-                <div class="video-07">
-                    <img src="/assets/img/video02.svg" alt="Video">
-                    <h3>Scrum Talks</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>1,6 mil visualizações
-                        Transmitido há 3 dias</p>
-                </div>
-                <div class="video-08">
-                    <img src="/assets/img/video03.svg" alt="Video">
-                    <h3>Machine Learning Avançado - Fast Track</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>1,7 mil visualizações
-                        Transmitido há 4 dias</p>
-                </div>
-                <div class="video-09">
-                    <img src="/assets/img/video04.svg" alt="Video">
-                    <h3>Global Skills #2 - Project Planning</h3>
-                    <p>DigitalInnovationOne</p>
-                    <p>971 visualizações
-                        Transmitido há 5 dias</p>
-                </div>
+    <main class="container-watch">
+        <div id="watch-video" class="item-wacth">
+            <img src="/assets/img/img-video.svg" alt="imagem video" class="video-yt">
+            <h2>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h2>
+        </div>
+        <div id="video-actions" class="item-watch">
+            <div id="channel-info" class="item-actions">
+                <img src="/assets/img/Channel Avatar.svg" alt="imagem avata canal" class="avata-channel">
+                <h2>DIO</h2>
+                <p>83,3 mil inscritos</p>
             </div>
-        </main>
-           
+            <div id="subscribe-button" class="item-actions">
+                <img src="/assets/img/Subscribe Button.svg" alt="" class="button-subscribe">
+            </div>
+            <div id="thumbs-up" class="item-actions">
+                <img src="/assets/img/thumbs-up.svg" alt="imagem like" class="like">
+                <p>2 mil</p>
+            </div>
+            <div id="thumbs-down" class="item-actions">
+                <img src="/assets/img/thumbs-down.svg" alt="imagem deslike" class="deslike">
+                <p>Não gostei</p>
+            </div>
+            <div id="share" class="item-actions">
+                <img src="/assets/img/share-2.svg" alt="imagem share" class="share">
+                <p>Compartilhar</p>
+            </div>
+            <div id="download" class="item-actions">
+                <img src="/assets/img/download.svg" alt="imagem download" class="download">
+                <p>Download</p>
+            </div>
+        </div>
+        <div id="info-watch" class="item-wacth">
+            <h3>28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</h3>
+            <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+        </div>
+    </main>
+    <aside class="sidebar">
+       <div id="sidebar-video1" class="video">
+            <img src="/assets/img/video01.svg" alt="imagem video" class="video1">
+            <div class="info-video">
+                <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+                <p>DigitalInnovationOne</p>
+                <p>2,1 mil visualizações
+                Transmitido há 2 dias</p>
+            </div>
+       </div>
+       <div id="sidebar-video2" class="video">
+            <img src="/assets/img/video02.svg" alt="imagem video 2" class="video2">
+            <div class="info-video">
+                <h2>Scrum Talks</h2>
+                <p>DigitalInnovationOne</p>
+                <p>1,6 mil visualizações
+                    Transmitido há 3 dias</p>
+            </div>  
+       </div>
+       <div id="sidebar-video3" class="video">
+            <img src="/assets/img/video03.svg" alt="imagem video 3" class="video3">
+            <div class="info-video">
+                <h2>Machine Learning Avançado - Fast Track</h2>
+                <p>DigitalInnovationOne</p>
+                <p>1,7 mil visualizações
+                    Transmitido há 4 dias</p>
+            </div>
+       </div>
+       <div id="sidebar-video4" class="video">
+            <img src="/assets/img/video04.svg" alt="video 4" class="video4">
+            <div class="info-video">
+                <h2>Global Skills #2 - Project Planning</h2>
+                <p>DigitalInnovationOne</p>
+                <p>971 visualizações
+                    Transmitido há 5 dias</p>
+            </div>
+       </div>
+       <div id="sidebar-video5" class="video">
+        <img src="/assets/img/video05.svg" alt="imagem video 5" class="video5">
+        <div class="info-video">
+            <h2>Como aprender a programar Python do ZERO</h2>
+            <p>DigitalInnovationOne</p>
+            <p>971 visualizações
+                Transmitido há 5 dias</p>
+        </div>
+       </div>
+       <div id="sidebar-video6" class="video">
+        <img src="/assets/img/video01.svg" alt="imagem video6" class="video6">
+        <div class="info-video">
+            <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+            <p>DigitalInnovationOne</p>
+            <p>2,1 mil visualizações
+                Transmitido há 2 dias</p>
+        </div>
+       </div>
+       <div id="sidebar-video7" class="video">
+            <img src="/assets/img/video02.svg" alt="imagem video 7" class="video7">
+            <div class="info-video">
+                <h2>Scrum Talks</h2>
+                <p>DigitalInnovationOne</p>
+                <p>1,6 mil visualizações
+                    Transmitido há 3 dias</p>
+            </div> 
+       </div>
+       <div id="sidebar-video8" class="video">
+            <img src="/assets/img/video03.svg" alt="imagem video 8" class="video8">
+             <div class="info-video">
+            <h2>Machine Learning Avançado - Fast Track</h2>
+            <p>DigitalInnovationOne</p>
+            <p>1,7 mil visualizações
+                Transmitido há 4 dias</p>
+        </div>
+       </div>
+       <div id="sidebar-video9" class="video">
+        <img src="/assets/img/video04.svg" alt="video 4" class="video4">
+            <div class="info-video">
+                <h2>Global Skills #2 - Project Planning</h2>
+                <p>DigitalInnovationOne</p>
+                <p>971 visualizações
+                    Transmitido há 5 dias</p>
+            </div>
+       </div>
+    </aside>  
 </body>
 </html>
