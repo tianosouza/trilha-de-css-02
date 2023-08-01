@@ -40,11 +40,138 @@ body {
     gap: 24px;
 }
 /*  --  Style main  --  */
+.container {
+    display: flex;
+    align-items:flex-start;
+}
 .container-watch {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 28px 25px 16px 75px;
     gap: 16px;
 }
+#watch-video h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+#video-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+#channel-info {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 12px;
+}
+.text-info-channel h2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+.text-info-channel p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+}
+#subscribe-button button{
+    width: 159px;
+    height: 40px;
+    background: #C00;
+    color: #fff;
+    border: solid 1px #C00;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+#thumbs-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+#thumbs-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+#share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+#download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+/*--Sei que poderia juntar todas essas id com uma classe so, 
+porém resolvi fazer assim para fins de de estudo--*/
+#info-watch {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#info-watch h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+#info-watch p {
+    width: 510px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+}
+/*--Style sidebar--*/
+.sidebar{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 28px;
+    gap: 16px;
+}
+.video  {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.info-video {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.video .info-video h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.video .info-video p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+}
+
+
 
